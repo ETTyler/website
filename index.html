@@ -1,0 +1,216 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ethan Tyler</title>
+    <link rel="icon" href="/favicon.svg">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="magnific-popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="\slick-1.8.1\slick\slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="\slick-1.8.1\slick\slick-theme.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="index.html">welcome</a></li>
+        <li class="item"><a href="#about">About</a></li>
+        <li class="item"><a href="#">Projects</a></li>
+        <li class="item"><a href="#">Education</a></li>
+        <li class="item button">
+          <a href="myCV.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="toggle"><span class="bars"></span></li>
+      </ul>
+    </nav>
+    <div class="container-1">
+      <p class="small-heading">Hi, my name is</p>
+      <h2 class="main-heading">Ethan Tyler.</h2>
+      <h3 class="main-heading2">
+        I am an aspiring Software Engineer and currently a student.
+      </h3>
+      <p class="heading-text">
+        I am from Birmingham, UK and study at Loughborough University and right
+        now I am looking for a placement related to Computer Science starting
+        from July 2021.
+      </p>
+      <p class="button button-2"><a href="#">Contact Me</a></p>
+    </div>
+    <div class="container-2">
+      <h3 id="about" class="sub-heading">About Me</h3>
+    </div>
+    <div class="container-3">
+      <div class="standard-text">
+        <p>
+          Hello! My name is Ethan and I am
+          <script>
+            var birthday = new Date("2000-08-04");
+            var today = new Date();
+            var age = today.getFullYear() - birthday.getFullYear();
+            var month = today.getMonth() - birthday.getMonth();
+            if (
+              month < 0 ||
+              (month === 0 && today.getDate() < birthday.getDate())
+            ) {
+              age--;
+            }
+            document.write(age);
+            // Calculates my age so the page automatically updates
+          </script>
+          years old. I am a Computing and Management student at Loughborough
+          University and grew up in Birmingham. I have always had an interest in
+          programming and software development since I was young and some of my
+          other interests include football, video games, extreme sports and
+          fashion. <br /><br />
+        </p>
+        <p>
+          During my final year of school I still had no idea what I wanted to do
+          with my life, let alone university. I knew I enjoyed Computer Science
+          but didn't know if I saw it as a career path, so as a confused 18 year
+          old I finished school and decided to go travelling. <br /><br />
+        </p>
+        <p>
+          My brother had also just finished uni and was in a similar situation
+          where he didn't know what he wanted to do next. So we headed off to
+          Dubai, New Zealand and Australia for 3 months from November 2018 -
+          February 2019.
+          <br /><br />
+        </p>
+        <p>
+          This gave us some time to think and while surrounded by
+          beautiful views and the cleanest air in the world in New Zealand I
+          came to the realisation that I wanted to pursue a career where most of
+          my time would be spent in big cities in front of a computer screen.
+          Here are some of my favourite pictures from the trip. <br><br>
+        </p>
+      </div>
+      <div class="carousel about-images">
+        <a href="https://i.imgur.com/wpfAiBo.jpg">
+          <img src="https://i.imgur.com/wpfAiBo.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/5bDkUJc.jpg">
+          <img src="https://i.imgur.com/5bDkUJc.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/OMaUk9j.jpg">
+          <img src="https://i.imgur.com/OMaUk9j.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/KTFxbWG.jpg">
+          <img src="https://i.imgur.com/KTFxbWG.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/zcEWHbN.jpg">
+          <img src="https://i.imgur.com/zcEWHbN.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/7gJMv1b.jpg">
+          <img src="https://i.imgur.com/7gJMv1b.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/7MDnw6d.jpg">
+          <img src="https://i.imgur.com/7MDnw6d.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/MZucZT1.jpg">
+          <img src="https://i.imgur.com/MZucZT1.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/ijiK0qj.jpg">
+          <img src="https://i.imgur.com/ijiK0qj.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/SFN5yGf.jpg">
+          <img src="https://i.imgur.com/SFN5yGf.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/XeioL9O.jpg">
+          <img src="https://i.imgur.com/XeioL9O.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/yp7Wq7b.jpg">
+          <img src="https://i.imgur.com/yp7Wq7b.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/g6O4UpY.jpg">
+          <img src="https://i.imgur.com/g6O4UpY.jpg" class="about-images" />+
+        </a>
+        <a href="https://i.imgur.com/CDCHttt.jpg">
+          <img src="https://i.imgur.com/CDCHttt.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/dIesOzv.jpg">
+          <img src="https://i.imgur.com/dIesOzv.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/xMLasoZ.jpg">
+          <img src="https://i.imgur.com/xMLasoZ.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/McuGhPf.jpg">
+          <img src="https://i.imgur.com/McuGhPf.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/ZgCK6Hg.jpg">
+          <img src="https://i.imgur.com/ZgCK6Hg.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/3PbvhwX.jpg">
+          <img src="https://i.imgur.com/3PbvhwX.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/OpcrC9j.jpg">
+          <img src="https://i.imgur.com/OpcrC9j.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/QohQulm.jpg">
+          <img src="https://i.imgur.com/QohQulm.jpg" class="about-images" />
+        </a>
+        <a href="https://i.imgur.com/DVI8XKC.jpg">
+          <img src="https://i.imgur.com/DVI8XKC.jpg" class="about-images" />
+        </a>
+      </div>
+    </div>
+    <script src="jquery.magnific-popup.js"></script>
+  </body>
+  <script type="text/javascript" src="\slick-1.8.1\slick\slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".carousel").each(function () {
+        var gallery = $(this);
+
+        gallery
+          .slick({
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+          })
+          .magnificPopup({
+            type: "image",
+            delegate: "a:not(.slick-cloned)",
+            gallery: {
+              enabled: true,
+            },
+            callbacks: {
+              open: function () {
+                var current = gallery.slick("slickCurrentSlide");
+                console.log(current);
+                gallery.magnificPopup("goTo", current);
+              },
+              beforeClose: function () {
+                gallery.slick("slickGoTo", parseInt(this.index));
+              },
+            },
+          });
+      });
+    });
+  </script>
+</html>
