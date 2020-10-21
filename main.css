@@ -248,7 +248,7 @@ button {
   .container-2 {
     display: flex;
     flex-direction: column;
-    padding: 6% 24em 0;
+    padding: 8% 24em 0;
   }
   .container-3 {
     display: flex;
@@ -256,6 +256,11 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0 24em;
+  }
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 8% 24em 3%;
   }
   .small-heading {
     color: rgba(112, 251, 147, 1);
@@ -289,8 +294,8 @@ button {
     align-self: center;
     height: auto;
     width: auto;
-    max-width: 550px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 500px;
     border-radius: 3%;
   }
 }
