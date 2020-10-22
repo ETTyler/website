@@ -205,7 +205,7 @@ button {
     transition: all 0.25s;
   }
   .button:not(.secondary) a:hover {
-    background: #006d6d;
+    background: #262626;
     border-color: #005959;
   }
   .button.secondary a:hover {
@@ -260,7 +260,14 @@ button {
   .container-4 {
     display: flex;
     flex-direction: column;
-    padding: 8% 24em 3%;
+    padding: 8% 24em 1%;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 24em;
   }
   .small-heading {
     color: rgba(112, 251, 147, 1);
@@ -278,6 +285,10 @@ button {
   .sub-heading {
     color: rgba(112, 251, 147, 1);
     font-size: 32px;
+  }
+  .project-heading {
+    color: rgb(194, 220, 255);
+    font-size: 28px;
   }
   .heading-text {
     color: rgba(255, 255, 255, 1);
@@ -297,6 +308,18 @@ button {
     max-width: 500px;
     max-height: 500px;
     border-radius: 3%;
+  }
+  .portfolio-images {
+    flex-basis: auto;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 1000px;
+    border-radius: 3%;
+  }
+  .carousel-css {
+    max-width: 100%;
   }
 }
 

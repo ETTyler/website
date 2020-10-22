@@ -180,8 +180,57 @@
     <div class="container-4" id="projects">
       <h3 id="about" class="sub-heading">Projects</h3>
     </div>
-
-
+    <div class="container-5">
+      <div class="project-heading">
+        Calendar & Fitness Tracker (C++, MSAccess)
+      </div>
+      <div class="standard-text">
+        <p>
+          The program utilises a grid to function as a personalisable calendar with features 
+          related to health/fitness such as a BMI calculator, a calorie tracker and a calories 
+          burned calculator. It also featured a backend database to store the user's personal information
+          and unique log in details. The weather window functioned as a browser within the program to access
+          local weather news.
+        </p> <br>
+        <p>
+          This was my first ever personal programming project as it was my coursework for A Level 
+          Computer Science, the overall grade for the program and it's documentation 
+          was an A*. 
+        </p> <br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/C++ Fitness/main.png">
+          <img src="/Images/C++ Fitness/main.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/new user.png">
+          <img src="/Images/C++ Fitness/new user.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/login.png">
+          <img src="/Images/C++ Fitness/login.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/add.png">
+          <img src="/Images/C++ Fitness/add.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/edit.png">
+          <img src="/Images/C++ Fitness/edit.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/BMI.png">
+          <img src="/Images/C++ Fitness/BMI.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/BMI2.png">
+          <img src="/Images/C++ Fitness/BMI2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/calories.png">
+          <img src="/Images/C++ Fitness/calories.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/calories2.png">
+          <img src="/Images/C++ Fitness/calories2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/weather.png">
+          <img src="/Images/C++ Fitness/weather.png" class="portfolio-images" />
+        </a>
+      </div>
+    </div>
     <script src="jquery.magnific-popup.js"></script>
   </body>
   <script type="text/javascript" src="\slick-1.8.1\slick\slick.min.js"></script>
@@ -189,7 +238,6 @@
     $(document).ready(function () {
       $(".carousel").each(function () {
         var gallery = $(this);
-
         gallery
           .slick({
             dots: false,
@@ -197,6 +245,58 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2500,
+            arrows: false,
+          })
+          .magnificPopup({
+            type: "image",
+            delegate: "a:not(.slick-cloned)",
+            gallery: {
+              enabled: true,
+            },
+            callbacks: {
+              open: function () {
+                var current = gallery.slick("slickCurrentSlide");
+                console.log(current);
+                gallery.magnificPopup("goTo", current);
+              },
+              beforeClose: function () {
+                gallery.slick("slickGoTo", parseInt(this.index));
+              },
+            },
+          });
+      });
+      $(".carousel-2").each(function () {
+        var gallery = $(this);
+        gallery
+          .slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            variableWidth: true,
+            adaptiveHeight: true,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            centerMode: true,
+            slidesToShow: 3,
+            arrows: false,
+            responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+              arrows: false,
+              centerMode: true,
+              slidesToShow: 1
+              }
+            }
+            ]
           })
           .magnificPopup({
             type: "image",
