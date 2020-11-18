@@ -175,6 +175,7 @@ button {
   height: auto;
   width: auto;
   max-width: 340px;
+  max-height: 260px;
   border-radius: 3%;
 }
 .portfolio-images {
@@ -183,6 +184,7 @@ button {
   height: auto;
   width: auto;
   max-width: 340px;
+  max-height: 260px;
   border-radius: 3%;
 }
 .carousel-css {
