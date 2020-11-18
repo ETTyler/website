@@ -1,7 +1,6 @@
 /* Slider */
 .slick-slider {
   position: relative;
-  line-height: 0;
 
   display: block;
   box-sizing: border-box;
@@ -24,7 +23,7 @@
   display: block;
   overflow: hidden;
 
-  margin: 0 -5px;
+  margin: 0 -10px;
   padding: 0;
 }
 .slick-list:focus {
@@ -69,7 +68,7 @@
 .slick-slide {
   display: none;
   float: left;
-  margin: 0 5px;
+  margin: 0 10px;
 
   min-height: 1px;
 }
