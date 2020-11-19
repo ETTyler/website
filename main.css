@@ -127,23 +127,22 @@ a:hover {
 }
 .main-heading {
   color: rgba(255, 255, 255, 0.87);
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 30px;
   font-family: "San Francisco2";
 }
 .main-heading2 {
   color: rgb(136, 146, 176);
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 30px;
   font-family: "San Francisco2";
 }
 .sub-heading {
   color: rgba(112, 251, 147, 1);
   font-size: 25px;
+  font-family: "San Francisco2";
 }
 .heading-text {
   color: rgba(255, 255, 255, 1);
-  font-size: 15px;
+  font-size: 13px;
   padding: 2% 10% 0 0;
 }
 .project-heading {
@@ -466,14 +465,17 @@ hr {
   .main-heading {
     color: rgba(255, 255, 255, 1);
     font-size: 80px;
+    font-family: "San Francisco";
   }
   .main-heading2 {
     color: rgba(136, 146, 176, 1);
     font-size: 80px;
+    font-family: "San Francisco";
   }
   .sub-heading {
     color: rgba(112, 251, 147, 1);
     font-size: 32px;
+    font-family: "San Francisco";
   }
   .project-heading {
     color: rgb(194, 220, 255);
