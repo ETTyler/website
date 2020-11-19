@@ -93,7 +93,7 @@ a:hover {
 }
 .container-1 {
   display: flex;
-  padding: 10% 8% 40%;
+  padding: 10% 1% 40% 6%;
   flex-direction: column;
 }
 .container-2 {
@@ -101,6 +101,7 @@ a:hover {
   padding-left: 6%;
   padding-top: 6%;
   padding-bottom: 2%;
+  padding-right: ;
   flex-direction: column;
 }
 .container-3 {
@@ -127,22 +128,21 @@ a:hover {
 }
 .main-heading {
   color: rgba(255, 255, 255, 0.87);
-  font-size: 30px;
+  font-size: 35px;
   font-family: "San Francisco2";
 }
 .main-heading2 {
   color: rgb(136, 146, 176);
-  font-size: 30px;
+  font-size: 35px;
   font-family: "San Francisco2";
 }
 .sub-heading {
   color: rgba(112, 251, 147, 1);
-  font-size: 25px;
-  font-family: "San Francisco2";
+  font-size: 23px;
 }
 .heading-text {
   color: rgba(255, 255, 255, 1);
-  font-size: 13px;
+  font-size: 16px;
   padding: 2% 10% 0 0;
 }
 .project-heading {
@@ -152,7 +152,7 @@ a:hover {
 }
 .standard-text {
   color: rgba(255, 255, 255, 1);
-  font-size: 15px;
+  font-size: 16px;
   padding: 0% 0;
 }
 .button a {
@@ -281,7 +281,7 @@ hr {
   }
 }
 
-@media all and (min-width: 1025px) {
+@media all and (min-width: 1024px) {
   .item {
     display: block;
     width: auto;
