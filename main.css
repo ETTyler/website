@@ -5,6 +5,11 @@
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+@font-face {
+  font-family: "San Francisco2";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
 
 * {
   box-sizing: border-box;
@@ -124,16 +129,17 @@ a:hover {
   color: rgba(255, 255, 255, 0.87);
   font-size: 35px;
   font-weight: 800;
+  font-family: "San Francisco2";
 }
 .main-heading2 {
   color: rgb(136, 146, 176);
   font-size: 35px;
   font-weight: 800;
+  font-family: "San Francisco2";
 }
 .sub-heading {
   color: rgba(112, 251, 147, 1);
   font-size: 25px;
-  font-weight: 800;
 }
 .heading-text {
   color: rgba(255, 255, 255, 1);
