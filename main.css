@@ -88,7 +88,7 @@ a:hover {
 }
 .container-1 {
   display: flex;
-  padding: 10% 10% 40%;
+  padding: 10% 8% 40%;
   flex-direction: column;
 }
 .container-2 {
@@ -122,20 +122,23 @@ a:hover {
 }
 .main-heading {
   color: rgba(255, 255, 255, 0.87);
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: bold;
 }
 .main-heading2 {
   color: rgb(136, 146, 176);
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: bold;
 }
 .sub-heading {
   color: rgba(112, 251, 147, 1);
   font-size: 25px;
+  font-weight: bold;
 }
 .heading-text {
   color: rgba(255, 255, 255, 1);
-  font-size: 14px;
-  padding: 2% 20% 0 0;
+  font-size: 15px;
+  padding: 2% 10% 0 0;
 }
 .project-heading {
   color: rgb(194, 220, 255);
