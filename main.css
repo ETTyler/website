@@ -18,6 +18,14 @@
   background: rgb(18, 18, 18);
 }
 
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+.devicon-git-plain path {
+  fill: #4691f6;
+}
+
 body {
   font-family: "San Francisco";
   font-weight: 400;
@@ -121,13 +129,23 @@ a:hover {
   align-items: flex-start;
   padding: 0 6% 8%;
 }
+.container-6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 6% 8%;
+  font-size: 30;
+}
+
 .small-heading {
   color: rgb(112, 251, 147);
   font-size: 15px;
   padding: 10px 0 2% 0;
 }
 .main-heading {
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(194, 220, 255);
   font-size: 35px;
   font-family: "San Francisco2";
 }
@@ -147,7 +165,7 @@ a:hover {
 }
 .project-heading {
   color: rgb(194, 220, 255);
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 1%;
 }
 .standard-text {
@@ -199,7 +217,7 @@ button {
 hr {
   display: block;
   border-radius: 7px 7px 7px 7px;
-  border-top: 5px solid rgba(112, 251, 147, 1);
+  border-top: 5px solid rgb(112, 251, 147);
   width: 100%;
 }
 .yellow {
@@ -343,13 +361,21 @@ hr {
     align-items: flex-start;
     padding: 0 21%;
   }
+  .container-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2% 21%;
+    font-size: 65;
+  }
   .small-heading {
     color: rgba(112, 251, 147, 1);
     font-size: 18px;
     padding: 0 0 0 0;
   }
   .main-heading {
-    color: rgba(255, 255, 255, 1);
     font-size: 70px;
   }
   .main-heading2 {
@@ -457,13 +483,22 @@ hr {
     align-items: flex-start;
     padding: 0 21%;
   }
+  .container-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2% 21%;
+    font-size: 80;
+  }
   .small-heading {
     color: rgba(112, 251, 147, 1);
     font-size: 18px;
     padding: 0 0 0 0;
   }
   .main-heading {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(194, 220, 255);
     font-size: 80px;
     font-family: "San Francisco";
   }
@@ -479,16 +514,16 @@ hr {
   }
   .project-heading {
     color: rgb(194, 220, 255);
-    font-size: 28px;
+    font-size: 30px;
     padding: 0 0 0;
   }
   .heading-text {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 2% 50% 0 0;
   }
   .standard-text {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 2% 10% 0 0;
   }
