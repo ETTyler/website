@@ -138,6 +138,13 @@ a:hover {
   padding: 0 6% 8%;
   font-size: 30;
 }
+.container-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
 
 .small-heading {
   color: rgb(112, 251, 147);
@@ -173,6 +180,13 @@ a:hover {
   font-size: 16px;
   padding: 0% 0;
 }
+.contact-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+
 .button a {
   padding: 12px 25px;
   border-radius: 3px;
