@@ -152,7 +152,7 @@ a:hover {
   padding: 10px 0 2% 0;
 }
 .main-heading {
-  color: rgb(194, 220, 255);
+  color: white;
   font-size: 35px;
   font-family: "San Francisco2";
 }
@@ -512,7 +512,6 @@ hr {
     padding: 0 0 0 0;
   }
   .main-heading {
-    color: rgb(194, 220, 255);
     font-size: 80px;
     font-family: "San Francisco";
   }
